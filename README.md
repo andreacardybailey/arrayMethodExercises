@@ -24,7 +24,7 @@ Write a function named addBook that has two parameters: an inventory array and a
 
 ### Selling a Book
 
-Write a function named sellBook that has two parameters: an inventory array and a book object. If the book is found and hasn't been sold yet, mark it as sold and return the updated inventory.
+Write a function named sellBook that has two parameters: an inventory array and a book object. If the book is found and hasn't been sold yet, mark it as sold (by updating its "sold" property) and return the updated inventory.
 
 **Use:** find
 
