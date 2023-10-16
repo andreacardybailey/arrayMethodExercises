@@ -30,24 +30,24 @@ Write a function named sellBook that has two parameters: an inventory array and 
 
 ### Removing Last Added Book
 
-Write a function named removeLastAdded that has one parameter: an inventory array. Thge function removes the most recently added book. Return the updated inventory.
+Write a function named removeLastAdded that has one parameter: an inventory array. The function removes the most recently added book. Return the updated inventory.
 
 **Use:** pop
 
 ### List all Authors
 
-Write a function named listAllAuthors that accepts the inventory array and returns an array of all unique authors in the inventory.
+Write a function named listAllAuthors that has one parameter: an inventory array. It returns an array of all unique authors in the inventory.
 
 **Use:** map and filter
 
 ### Total Inventory Value
 
-Write a function named totalValue that accepts the inventory array and returns the total price of all unsold books in the inventory.
+Write a function named totalValue that has one parameter: an inventory array. It returns the total price of all unsold books in the inventory.
 
 **Use:** filter and reduce
 
 ### First 3 Expensive Books
 
-Write a function named top3Expensive that accepts the inventory array and returns an array of titles of the 3 most expensive unsold books.
+Write a function named top3Expensive that has one parameter: an inventory array. It returns an array of titles of the 3 most expensive unsold books.
 
 **Use:** filter, sort, and slice
