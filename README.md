@@ -18,19 +18,19 @@ const inventory = [
 
 ### Adding a Book
 
-Write a function named addBook that accepts the inventory array and a book object. The function should add the book to the end of the inventory array and return the updated inventory.
+Write a function named addBook that has two parameters: an inventory array and a book object. The function should add the book to the end of the inventory array and return the updated inventory.
 
 **Use:** push
 
 ### Selling a Book
 
-Write a function named sellBook that accepts the inventory array and a book title. If the book is found and hasn't been sold yet, mark it as sold and return the updated inventory.
+Write a function named sellBook that has two parameters: an inventory array and a book object. If the book is found and hasn't been sold yet, mark it as sold and return the updated inventory.
 
 **Use:** find
 
 ### Removing Last Added Book
 
-Write a function named removeLastAdded that accepts the inventory array and removes the most recently added book. Return the updated inventory.
+Write a function named removeLastAdded that has one parameter: an inventory array. Thge function removes the most recently added book. Return the updated inventory.
 
 **Use:** pop
 
